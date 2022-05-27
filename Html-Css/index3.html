@@ -9,17 +9,17 @@
     <title>Página 03</title>
 </head>
 
-<body style="background-color: rgb(50, 83, 104);">
-    <h1 style="color: #fff;">Olá comunidade dev! Agora vamos iniciar a página 03 de estudos.</h1>
-    <p style="color: #fff;">
+<body>
+    <h1>Olá comunidade dev! Agora vamos iniciar a página 03 de estudos.</h1>
+    <p>
         <a href="index2.html" rel="prev" style="color: rgb(179, 74, 74);">Clique aqui</a> para voltar para a página 02.
         <br>
         <a href="index.html" rel="prev" style="color: rgb(179, 74, 74);">Clique aqui</a> para retornar a home pag
         <hr>
     </p>
 
-    <h3 style="color: #fff;">Vamos adicionar um background color no body de toda a página</h3>
-    <p style="color: rgba(255, 255, 255, 0.699);">
+    <h3>Vamos adicionar um background color no body de toda a página</h3>
+    <p>
         Para isto, iremos utilizar o CSS inline apenas como exemplo. Na tag &lt;body&gt; iremos adicionar os seguintes
         itens:
         <br>
@@ -31,15 +31,35 @@
         <br>
         OBS: A forma de utilização do CSS inline pode trazar problemas quando falamos de um grande website. Por quê?
         <br>
-        Porque, adicionar regras CSS para cada elemento HTML consome muito tempo e faz a sua estrutura HTML ficar bagunçada. Estilizar múltiplos elementos pode afetar o tamanho da sua página o tempo para download.
+        Porque, adicionar regras CSS para cada elemento HTML consome muito tempo e faz a sua estrutura HTML ficar
+        bagunçada. Estilizar múltiplos elementos pode afetar o tamanho da sua página o tempo para download.
     </p>
 
-    <h3 style="color: #fff;">Sobre alinhamento de texto:</h3>
-    <p style="text-align: justify; color: #fff;">
+    <h3>Sobre alinhamento de texto:</h3>
+    <p>
         Podemos utilizar: <br>
         style="text-align: tipo do alinhamento"
         <hr>
     </p>
+
+    <h3>Vamos falar um pouco sobre o CSS local/interno</h3>
+    <p>
+        Podemos adicionar a tag style abaixo do head e iniciar a estilização, como assim? <br>
+        Exemplificando melhor, irei tratar um exemplo que pode ser copiado e colado/testado <br>
+        EXEMPLO:
+    <pre>
+       <code>
+  &lt;style&gt; 
+    body {   
+      background-color: #fff; 
+    } 
+  &lt;style&gt; 
+       </code>    
+      </pre>
+      <strong>Desvatangens desta ténica:</strong><br>
+      Em um único arquivo vai ser misturado CSS com HTML e isso pode atrapalhar até no tamanho do arquivo, o deixando enorme e atrapalhando manutenções futuras
+    </p>
+    <hr>
 </body>
 
 </html>
