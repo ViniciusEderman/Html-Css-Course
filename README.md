@@ -10,3 +10,7 @@ O projeto pode ser clonado, e basta abrir os seguintes arquivos: <br>
  index.html <br>
  index2.html <br>
  index3.html
+
+# OBS:
+ Você pode inspecionar no próprio google quando o projeto for alocado em algum servidor <br>
+ Deixarei a url para acesso do website assim que estiver alocado no serv
